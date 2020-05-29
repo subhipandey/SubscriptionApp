@@ -4,7 +4,9 @@ import androidx.databinding.Bindable
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.databinding.Observable
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
+import com.subhipandey.Event
 import com.subhipandey.android.subscriptionapp.database.Subscriber
 import com.subhipandey.android.subscriptionapp.database.SubscriberRepository
 import kotlinx.coroutines.Job
@@ -28,6 +30,11 @@ class SubscriberViewModel(private val repository: SubscriberRepository) : ViewMo
 
     @Bindable
     val clearAllOrDeleteButtonText = MutableLiveData<String>()
+
+    private val stateMessage = MutableLiveData<Event<String>>()
+
+    val message : LiveData<Event<String>>
+    get() = stateMessage
 
     init {
         saveOrUpdateButtonText.value = "save"
@@ -64,6 +71,7 @@ class SubscriberViewModel(private val repository: SubscriberRepository) : ViewMo
     fun insert(subscriber: Subscriber): Job = viewModelScope.launch {
 
             repository.insert(subscriber)
+             stateMessage.value = Event("Subscriber Added Successfully")
         }
 
     fun update(subscriber: Subscriber): Job = viewModelScope.launch {
@@ -73,6 +81,7 @@ class SubscriberViewModel(private val repository: SubscriberRepository) : ViewMo
         isUpdateOrDelete = false
         saveOrUpdateButtonText.value = "Save"
         clearAllOrDeleteButtonText.value = "ClearAll"
+        stateMessage.value = Event("Subscriber Updated Successfully")
 
 
     }
@@ -84,11 +93,15 @@ class SubscriberViewModel(private val repository: SubscriberRepository) : ViewMo
         isUpdateOrDelete = false
         saveOrUpdateButtonText.value = "Save"
         clearAllOrDeleteButtonText.value = "ClearAll"
+        stateMessage.value = Event("Subscriber Removed Successfully")
+
 
     }
 
     fun clearAll(): Job = viewModelScope.launch {
         repository.deleteAll()
+        stateMessage.value = Event("All Subscriber Removed Successfully")
+
     }
 
     fun initUpdateAndDelete(subscriber: Subscriber){

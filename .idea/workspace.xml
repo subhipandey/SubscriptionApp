@@ -10,14 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4f2a62a-66ee-4e16-9032-13eb86c4aef5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/subscriptionapp/MyRecyclerViewAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/Event.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/subscriptionapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/subscriptionapp/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/subscriptionapp/SubscriberViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/subscriptionapp/SubscriberViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/subscriptionapp/database/Subscriber.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/subscriptionapp/database/Subscriber.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,10 +140,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590640463936" />
-    <state x="337" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590747385076">
+    <state x="337" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590757276014">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="337" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590747385076" />
+    <state x="337" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590757276014" />
     <state x="693" y="108" width="663" height="518" key="find.popup" timestamp="1590740391610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
