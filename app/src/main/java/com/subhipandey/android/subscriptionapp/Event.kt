@@ -1,4 +1,4 @@
-package com.subhipandey
+package com.subhipandey.android.subscriptionapp
 
 open class Event<out T>(private val content: T) {
 
