@@ -10,10 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4f2a62a-66ee-4e16-9032-13eb86c4aef5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/subscriptionapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/subscriptionapp/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/subscriptionapp/SubscriberViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/subscriptionapp/SubscriberViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/subscriptionapp/database/SubscriberDAO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/subscriptionapp/database/SubscriberDAO.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/subscriptionapp/database/SubscriberRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/subscriptionapp/database/SubscriberRepository.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +131,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="804" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590749312612" />
+    <state x="363" y="92" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1590761605211">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="92" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1590761605211" />
     <state x="526" y="122" key="AndroidCreateResourceFileDialog" timestamp="1590748411616">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -138,10 +143,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590640463936" />
-    <state x="337" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590757276014">
+    <state x="337" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590761564420">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="337" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590757276014" />
+    <state x="337" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590761564420" />
     <state x="693" y="108" width="663" height="518" key="find.popup" timestamp="1590740391610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
